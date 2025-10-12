@@ -157,11 +157,19 @@ return {
     -- Rust codelldb setup
     local dap = require("dap")
 
+    local mason_path = vim.fn.stdpath("data") .. "/mason/bin/"
+    local codelldb_cmd
+    if vim.loop.os_uname().sysname == "Windows_NT" then
+      codelldb_cmd = mason_path .. "codelldb.CMD"
+    else
+      codelldb_cmd = mason_path .. "codelldb"
+    end
+
     dap.adapters.codelldb = {
       type = "server",
       port = "${port}",
       executable = {
-        command = vim.fn.stdpath("data") .. "/mason/bin/codelldb.CMD",
+        command = codelldb_cmd,
         args = { "--port", "${port}" },
       },
     }
