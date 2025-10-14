@@ -29,15 +29,6 @@
           "type": "shell"
         },
         {
-          "background": "#516BEB",
-          "foreground": "#ffffff",
-          "leading_diamond": "\ue0b2",
-          "style": "diamond",
-          "template": "\ue266 MEM: {{ round .PhysicalPercentUsed .Precision }}% | {{ (div ((sub .PhysicalTotalMemory .PhysicalAvailableMemory)|float64) 1073741824.0) }}/{{ (div .PhysicalTotalMemory 1073741824.0) }}GB \ue266 ",
-          "trailing_diamond": "<transparent,#516BEB>\ue0b2</>",
-          "type": "sysinfo"
-        },
-        {
           "background": "#575656",
           "foreground": "#d6deeb",
           "leading_diamond": "\ue0b2",
