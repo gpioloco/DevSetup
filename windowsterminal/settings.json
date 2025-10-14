@@ -1,0 +1,201 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "f11"
+        }
+    ],
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "IBM 5153 (Copy)",
+            "startingDirectory": "w:/DieBonder/"
+        },
+        "list": 
+        [
+            {
+                "antialiasingMode": "cleartype",
+                "colorScheme": "IBM 5153 (Copy)",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nolog",
+                "font": 
+                {
+                    "face": "0xProto Nerd Font Mono",
+                    "size": 18,
+                    "weight": "bold"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "C:\\Users\\emp8120177\\Pictures\\time_free_hobbies_origami_ship_boat_paper_icon_267265.ico",
+                "name": "Windows PowerShell",
+                "opacity": 73,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Eingabeaufforderung"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{eb1ebb9a-7f57-52f5-ba31-40d1162824ac}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{f9c75e79-feab-56ce-8cd8-82ee3065c9ae}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "antialiasingMode": "cleartype",
+                "colorScheme": "IBM 5153 (Copy)",
+                "commandline": "cmd.exe /k %CMDER_ROOT%\\vendor\\init.bat",
+                "font": 
+                {
+                    "face": "0xProto Nerd Font Mono",
+                    "size": 18,
+                    "weight": "bold"
+                },
+                "guid": "{f2defbfd-46bf-49c9-a791-c51254663941}",
+                "icon": "C:\\Users\\emp8120177\\Pictures\\time_free_hobbies_origami_ship_boat_paper_icon_267265.ico",
+                "name": "Cmder",
+                "opacity": 73,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": 
+    [
+        {
+            "background": "#1E1E1E",
+            "black": "#000000",
+            "blue": "#2472C8",
+            "brightBlack": "#666666",
+            "brightBlue": "#3B8EEA",
+            "brightCyan": "#29B8DB",
+            "brightGreen": "#23D18B",
+            "brightPurple": "#D670D6",
+            "brightRed": "#F14C4C",
+            "brightWhite": "#E5E5E5",
+            "brightYellow": "#F5F543",
+            "cursorColor": "#808080",
+            "cyan": "#11A8CD",
+            "foreground": "#CCCCCC",
+            "green": "#0DBC79",
+            "name": "Dark+ (Copy)",
+            "purple": "#BC3FBC",
+            "red": "#CD3131",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E5E5E5",
+            "yellow": "#E5E510"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#0000AA",
+            "brightBlack": "#555555",
+            "brightBlue": "#5555FF",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#55FF55",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF55",
+            "cursorColor": "#00AA00",
+            "cyan": "#00AAAA",
+            "foreground": "#E0E0E0",
+            "green": "#00AA00",
+            "name": "IBM 5153 (Copy)",
+            "purple": "#AA00AA",
+            "red": "#AA0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#AAAAAA",
+            "yellow": "#C47E00"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
