@@ -187,5 +187,5 @@ end
 
 vim.api.nvim_set_hl(0, "CursorLine", { bg = "#2a2a2a" })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#eeeeee", bg = "#3a3a3a" })
-vim.api.nvim_set_hl(0, "Visual", { bg = "#3a5068" })
+vim.api.nvim_set_hl(0, "Visual", { bg = "#3a5068" })     -- easier to distinguish
 vim.api.nvim_set_hl(0, "VisualNOS", { bg = "#3a5068" })
